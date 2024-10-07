@@ -1,0 +1,8 @@
+[submodule "packages"]
+	path = packages
+	url = https://github.com/kurtbahartr/config-packages
+	branch = master
+[submodule "rootfs"]
+	path = rootfs
+	url = https://github.com/kurtbahartr/config-rootfs
+	branch = master

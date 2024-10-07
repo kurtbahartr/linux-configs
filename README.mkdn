@@ -1,0 +1,9 @@
+# Linux Configs
+
+This right here is my configuration for each and every distro I've used so far. You can also consider this some kind of a public snapshot of the said distros before I switch.
+
+# Submodule list
+
+- `rootfs`: Layer RootFS-esque configurations. Each and every distro is separated by their own respective folders. Each folder will be separated by the dates of the time of the configuration at any time and also include the specs of the computer each layer was created in - Beware of the computers from before 2015!
+- `packages`: Set of scripts to install the packages I had at the time on the distro in question at any time. The premise is similar to the `rootfs` one except they will be separated in the same way as libraries for easier manageability and compatibility.
+
