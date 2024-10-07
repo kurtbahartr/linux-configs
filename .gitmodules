@@ -6,3 +6,7 @@
 	path = rootfs
 	url = https://github.com/kurtbahartr/config-rootfs
 	branch = master
+[submodule "pisi-build-files"]
+	path = pisi-build-files
+	url = https://github.com/kurtbahartr/pisi-springwolf
+	branch = master
