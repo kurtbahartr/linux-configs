@@ -7,3 +7,10 @@ This right here is my configuration for each and every distro I've used so far. 
 - `rootfs`: Layer RootFS-esque configurations. Each and every distro is separated by their own respective folders.
 - `packages`: Set of scripts to install the packages I had at the time on the distro in question at any time. The premise is similar to the `rootfs` one except they will be separated in the same way as libraries for easier manageability and compatibility. Each main script will be separated by the dates of the time of the configuration at any time and also feature the specs of the computer each script was created in - Beware of the computers from before 2015!
 - `pisi-build-modules`: Repo-like PiSi build files to build specific packages for Pisi GNU/Linux - The packages I maintain end up in here only if they're very unlikely to end up in official Pisi repos.
+
+# Ubuntu users!
+
+You don't have to stick to LTS! If you don't mind losing Ubuntu Pro privileges, you may also opt for interim releases with the script found in `packages/lib/release-upgrades.sh`!
+```bash
+curl <(bash https://raw.githubusercontent.com/kurtbahartr/config-packages/master/lib/release-upgrades.sh)
+```
